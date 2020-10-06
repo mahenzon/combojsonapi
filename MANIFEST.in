@@ -1,2 +1,5 @@
 include LICENSE
-recursive-include docs examples tests combojsonapi/spec/apispec/templates
+recursive-include docs examples tests 
+include combojsonapi/spec/apispec/templates/redoc.html
+include combojsonapi/spec/apispec/templates/swagger_ui.html
+
