@@ -20,6 +20,8 @@ setup(
     ],
     keywords="web api rest rpc swagger jsonapi flask sqlalchemy marshmallow plugin",
     packages=find_packages(exclude=["tests"]),
+    package_data={'': ['*.html']},
+    include_package_data=True,
     zip_safe=False,
     platforms="any",
     install_requires=[
