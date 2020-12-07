@@ -30,7 +30,7 @@ setup(
         'marshmallow_jsonapi==0.22.0',
         'Flask>=1.0.1',
         'apispec>=2.0.2',
-        'flask-combo-jsonapi @ git+https://github.com/AdCombo/flask-combo-jsonapi.git@1.0.0',
+        'flask-combo-jsonapi>=1.0.0',
     ],
     setup_requires=["pytest-runner"],
     tests_require=["pytest"],
